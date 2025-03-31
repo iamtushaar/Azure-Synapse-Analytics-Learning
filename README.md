@@ -10,40 +10,40 @@ This repository covers essential operations in Azure Synapse Analytics, such as 
 
 This repository covers:
 
-Creating external tables in Serverless SQL Pool.
+- Creating External Data Sources, File Formats, and Credentials for structured data access.
+  
+- Using OPENROWSET to access external data.
+  
+- .Creating views in Azure Synapse.
 
-Creating views in Azure Synapse.
+- Creating external tables in Serverless SQL Pool.
 
-Using OPENROWSET to access external data.
+- Defining and managing distributed tables.
 
-Defining and managing distributed tables.
+- Copying data from Azure Data Lake Storage (ADLS) to Dedicated SQL Pool using:
 
-Copying data from Azure Data Lake Storage (ADLS) to Dedicated SQL Pool using:
+  - CETAS (Create External Table As Select)
 
-CETAS (Create External Table As Select)
-
-PolyBase
-
-Creating External Data Sources, File Formats, and Credentials for structured data access.
+  - PolyBase
 
 📖 Prerequisites
 
 Before using these scripts, ensure you have:
 
-Azure Synapse Analytics Workspace set up.
+- Azure Synapse Analytics Workspace set up.
 
-Azure Data Lake Storage (ADLS) Gen2 configured.
+- Azure Data Lake Storage (ADLS) Gen2 configured.
 
-Serverless SQL Pool and Dedicated SQL Pool available.
+- Serverless SQL Pool and Dedicated SQL Pool available.
 
-Proper permissions to create external tables, views, and credentials.
+- Proper permissions to create external tables, views, and credentials.
 
 
 📌 References
 
-Microsoft Docs - Azure Synapse Analytics
+- Microsoft Docs - Azure Synapse Analytics
 
-PolyBase Overview
+- PolyBase Overview
 
 CETAS in Synapse
 
