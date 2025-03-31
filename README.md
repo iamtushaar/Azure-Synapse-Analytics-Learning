@@ -45,7 +45,7 @@ Before using these scripts, ensure you have:
 
 - PolyBase Overview
 
-CETAS in Synapse
+- CETAS in Synapse
 
 🤝 Contributing
 
